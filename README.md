@@ -1,3 +1,7 @@
+<div>
+    <a href="https://travis-ci.org/meru-akimbo/resque-retry-perl"><img src="https://travis-ci.org/meru-akimbo/resque-retry-perl.svg?branch=master"></a>
+</div>
+
 # NAME
 
 Resque::Plugin::Retry - Retry the fail job

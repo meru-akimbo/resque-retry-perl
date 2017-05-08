@@ -15,6 +15,8 @@ __END__
 
 =encoding utf-8
 
+=for html <a href="https://travis-ci.org/meru-akimbo/resque-retry-perl"><img src="https://travis-ci.org/meru-akimbo/resque-retry-perl.svg?branch=master"></a>
+
 =head1 NAME
 
 Resque::Plugin::Retry - Retry the fail job
