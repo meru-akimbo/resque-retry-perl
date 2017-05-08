@@ -1,8 +1,25 @@
-# NAME
+package Resque::Plugin::Retry;
+use 5.008001;
+use strict;
+use warnings;
+
+our $VERSION = "0.01";
+
+use Resque::Plugin;
+
+add_to job    => 'Retry::Job';
+
+
+1;
+__END__
+
+=encoding utf-8
+
+=head1 NAME
 
 Resque::Plugin::Retry - Retry the fail job
 
-# SYNOPSIS
+=head1 SYNOPSIS
 
     use Resque;
 
@@ -14,17 +31,20 @@ Resque::Plugin::Retry - Retry the fail job
         }
     );
 
-# DESCRIPTION
+=head1 DESCRIPTION
 
 Retry when the job fails
 
-# LICENSE
+=head1 LICENSE
 
-Copyright (C) meru\_akimbo.
+Copyright (C) meru_akimbo.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
-# AUTHOR
+=head1 AUTHOR
 
-meru\_akimbo <merukatoruayu0@gmail.com>
+meru_akimbo E<lt>merukatoruayu0@gmail.comE<gt>
+
+=cut
+

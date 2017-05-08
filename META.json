@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Retry the fail job",
    "author" : [
       "meru_akimbo <merukatoruayu0@gmail.com>"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "resque-retry-perl",
+   "name" : "Resque-Plugin-Retry",
    "no_index" : {
       "directory" : [
          "t",
@@ -42,16 +42,30 @@
       },
       "runtime" : {
          "requires" : {
+            "Resque" : "0.31",
+            "Try::Lite" : "0",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
+            "Test::Exception" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/meru-akimbo/resque-retry-perl/issues"
+      },
+      "homepage" : "https://github.com/meru-akimbo/resque-retry-perl",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/meru-akimbo/resque-retry-perl.git",
+         "web" : "https://github.com/meru-akimbo/resque-retry-perl"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:MERU",
    "x_serialization_backend" : "JSON::PP version 2.27300"

@@ -29,3 +29,5 @@ cover_db/
 MYMETA.*
 
 /resque-retry-perl-*
+
+cpanfile.snapshot
