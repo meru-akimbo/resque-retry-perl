@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Retry the fail job",
    "author" : [
       "meru_akimbo <merukatoruayu0@gmail.com>"
    ],

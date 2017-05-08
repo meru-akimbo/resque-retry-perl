@@ -1,14 +1,22 @@
 # NAME
 
-resque::retry::perl - It's new $module
+Resque::Plugin::Retry - Retry the fail job
 
 # SYNOPSIS
 
-    use resque::retry::perl;
+    use Resque;
+
+    my $resque = Resque->new(redis => $redis_server, plugins => ['Retry']);
+    $resque->push('test-job' => +{
+            class => 'Hoge',
+            args  => [+{ cat => 'nyaaaa' }, +{ dog => 'bow' }],
+            max_retry => 3,
+        }
+    );
 
 # DESCRIPTION
 
-resque::retry::perl is ...
+Retry when the job fails
 
 # LICENSE
 
