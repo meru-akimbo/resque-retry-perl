@@ -2,5 +2,7 @@ Revision history for Perl extension resque-retry-perl
 
 {{$NEXT}}
 
+0.01 2017-05-08T09:42:56Z
+
     - original version
 
