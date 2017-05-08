@@ -1,4 +1,4 @@
-name = "resque-retry-perl"
+name = "Resque-Plugin-Retry"
 # badges = ["travis"]
 authority="cpan:MERU"
 

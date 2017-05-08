@@ -1,10 +1,13 @@
-package resque::retry::perl;
+package Resque::Plugin::Retry;
 use 5.008001;
 use strict;
 use warnings;
 
 our $VERSION = "0.01";
 
+use Resque::Plugin;
+
+add_to job    => 'Retry::Job';
 
 
 1;
