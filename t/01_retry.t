@@ -5,8 +5,6 @@ use Test::Exception;
 use Redis;
 use Resque;
 use Test::RedisServer;
-use Test::MockTime qw/set_fixed_time restore_time/;
-use Time::Strptime qw/strptime/;
 
 my $redis_server;
 eval {
